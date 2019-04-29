@@ -1,8 +1,9 @@
 #include <iostream>
 #include <stack>
 #include <string>
-#include <vector>
 using namespace std;
+
+//这是一个用来匹配[],{},()是否匹配的程序，用的是stack
 bool Match(char a, char b) {
 	if (a == '(' && b == ')') return true;
 	else if (a == '{' && b == '}') return true;
